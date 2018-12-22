@@ -14,5 +14,3 @@
 <li>Telepot, Motion</li> 
 </ul>
 
-Contribution guidelines for this project](docs/CONTRIBUTING.md)
-
