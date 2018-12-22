@@ -3,10 +3,13 @@
 
 
 ## materials 
-Raspberry pi – mini computer
-Streaming camera or Raspberry pi camera
-Servo motor – to control the lock
-LED Lights – to show the lock condition (open/close)
-Software(Language):
-Python 
-Telepot, Motion 
+<ul>
+  
+<li>Raspberry pi – mini computer</li>
+<li>Streaming camera or Raspberry pi camera</li>
+<li>Servo motor – to control the lock</li>
+<li>LED Lights – to show the lock condition (open/close)</li>
+<li>Software(Language):</li>
+<li>Python</li> 
+<li>Telepot, Motion</li> 
+</ul>
