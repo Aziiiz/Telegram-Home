@@ -55,3 +55,28 @@ Receiving the motion detection by emails is fine, but it can be done via Telegra
 
 ### create mybot
 here is great <a href="https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/"> tutorial </a> for this
+
+### install telepot
+pip install telepot
+
+#### after installing telepot . Now if the both listen_bot.py and motion -c ~/motion/motion.conf are running, the system should work.
+
+#### creating service 
+ere, the following is working, but I am sure this is the right way to do, so use we care.
+add the file listen.service in the folder /etc/systemd/system and type thsese codes.
+
+Unit]
+Description=Listen to foo telegram bot
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python2.7 -u listen_bot.py
+WorkingDirectory=/home/pi/motion/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=motion
+
+[Install]
+WantedBy=multi-user.target
+
