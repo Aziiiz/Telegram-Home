@@ -1,6 +1,5 @@
 
 # Telegram home
-![Screenshot](telegramvspi.jpg)
 
 ## materials 
 <ul>
@@ -76,7 +75,9 @@ add the file listen.service in the folder /etc/systemd/system and type thsese co
 ### set up servo and LED to GPIO by following this picture
 ![Screenshot](mockup.png)
  
-Test your code 
+### Test your code 
+
+
 ![Screenshot](bot.PNG)
 
 
