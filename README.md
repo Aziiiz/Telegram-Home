@@ -1,6 +1,6 @@
 
 # Telegram home
-
+![Screenshot](telegramvspi.jpg)
 
 ## materials 
 <ul>
@@ -77,4 +77,9 @@ add the file listen.service in the folder /etc/systemd/system and type thsese co
 ![Screenshot](mockup.png)
  
 Test your code 
-![Screenshot](bot.png)
+![Screenshot](bot.PNG)
+
+
+## Finally build model of the door
+![Screenshot](frontside.JPG)
+![Screenshot](backside.JPG)
