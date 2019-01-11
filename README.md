@@ -28,3 +28,9 @@
 To work with the Pi Camera you need a special version of Motion that supports MMAL cameras. The easiest way to install this is by downloading and installing a deb file as follows:
 
 #### First get the deb file with the following command (if this doesn’t work then have a look for the correct release file on the Motion <a href="https://motion-project.github.io/motion_build.html">project GitHub</a>)
+ 
+ ## Then run this commands on Terminal
+
+##### wget https://github.com/Motion-Project/motion/releases/download/release-4.1.1/pi_stretch_motion_4.1.1-1_armhf.deb
+##### sudo apt-get install gdebi-core
+##### sudo gdebi pi_stretch_motion_4.1.1-1_armhf.deb
