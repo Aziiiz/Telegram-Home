@@ -47,3 +47,5 @@ motion -c ~/motion/motion.conf
 
 change codes on <a href="http://ginolhac.github.io/data/motion_diff.html">motion.conf</a> // <i>i uploaded motion.conf already changed you look for this also </i>
 
+### getting live streaming
+with this configuration, you should see the live streaming from this URL: http://192.168.1.27:8081
