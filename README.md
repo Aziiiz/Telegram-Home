@@ -49,3 +49,9 @@ change codes on <a href="http://ginolhac.github.io/data/motion_diff.html">motion
 
 ### getting live streaming
 with this configuration, you should see the live streaming from this URL: http://192.168.1.27:8081
+
+## Communication with motion via telegram
+Receiving the motion detection by emails is fine, but it can be done via Telegram and the awesome API <a href="https://telepot.readthedocs.io/en/latest/"> telepot.</a> Actually, you can even send commands to your pi using your phone using those telegram bots.
+
+### create mybot
+here is great <a href="https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/"> tutorial </a> for this
