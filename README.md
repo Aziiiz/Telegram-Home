@@ -69,5 +69,9 @@ add the file listen.service in the folder /etc/systemd/system and type thsese co
 #####run the service
 ##### pi@raspberrypi:/etc/systemd/system $ service listen status
 
-##### here is example of motion detected
+### here is example of motion detected
 ![Screenshot](motion.PNG)
+
+## Setting up Servo and LED
+### set up servo and LED to GPIO by following this picture
+![Screenshot](mockup.png)
