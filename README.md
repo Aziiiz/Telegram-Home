@@ -26,6 +26,8 @@
 
 ## Install Motion Software
 To work with the Pi Camera you need a special version of Motion that supports MMAL cameras. The easiest way to install this is by downloading and installing a deb file as follows:
+  
+###### I followed the instructions provided in this great <a href="https://www.bouvet.no/bouvet-deler/utbrudd/building-a-motion-activated-security-camera-with-the-raspberry-pi-zero"> tutorial </a> by Bouvet. With some changes described below.
 
 #### First get the deb file with the following command (if this doesn’t work then have a look for the correct release file on the Motion <a href="https://motion-project.github.io/motion_build.html">project GitHub</a>)
  
@@ -34,3 +36,14 @@ To work with the Pi Camera you need a special version of Motion that supports MM
 ##### wget https://github.com/Motion-Project/motion/releases/download/release-4.1.1/pi_stretch_motion_4.1.1-1_armhf.deb
 ##### sudo apt-get install gdebi-core
 ##### sudo gdebi pi_stretch_motion_4.1.1-1_armhf.deb
+
+## try to run motion: type this command to terminal
+##### to make copy
+mkdir ~/motion && cp /etc/motion/motion.conf ~/motion/
+##### run for the first time
+motion -c ~/motion/motion.conf
+
+## set up motion.connf for our project
+
+change codes on <a href="http://ginolhac.github.io/data/motion_diff.html">motion.conf</a> // <i>i uploaded motion.conf already changed you look for this also </i>
+
