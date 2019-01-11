@@ -19,6 +19,6 @@
 
 # install Rasbian to Raspebbry pi with two options
 <ul>
-<a href="#"><li> by using monitor, keyboard and mouse.</li></a>
-  <a href="https://howchoo.com/g/ndy1zte2yjn/how-to-set-up-wifi-on-your-raspberry-pi-without-ethernet" target="_blank"><li> by using ssh with ip and wifi</li></a>
+<li> by using monitor, keyboard and mouse. you can download noobs from <a href="#">raspberrypi.org </a>for free and install as usual </li>
+  <a href="https://howchoo.com/g/ndy1zte2yjn/how-to-set-up-wifi-on-your-raspberry-pi-without-ethernet" target="_blank"><li> by using ssh with ip and wifi.</li></a>
 </ul>
