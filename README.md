@@ -65,3 +65,5 @@ pip install telepot
 ere, the following is working, but I am sure this is the right way to do, so use we care.
 add the file listen.service in the folder /etc/systemd/system and type thsese codes.
 ![Screenshot](listen-service.png)
+run the service
+##### pi@raspberrypi:/etc/systemd/system $ service listen status
